@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PolarTest</title>
+    <script src="Polar.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <form>
+        <label>name:</label>
+        <input p-model = "name" />
+    </form>
+    <div>name:{{name}} age:{{age}}</div>
+    <i>note:{{note}}</i><br/>
+    <button p-click="test(2)">button1</button>
+</div>
+
+<script>
+    var myPolar = new Polar({
+        el:"#app",
+        data: {
+            name: "niexiaotao",
+            age:16,
+            note:"Student of Zhejiang University"
+        },
+        methods:{
+            test:function(e,addNumber){
+                console.log("e:",e);
+                this.data.age+=Number(addNumber);
+            }
+        }
+    });
+</script>
+</body>
+</html>
