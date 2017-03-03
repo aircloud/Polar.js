@@ -13,7 +13,7 @@
 由于这个小框架是自己在PolarBear这个咖啡馆在一个安静的午后开始写成，暂且起名Polar，日后希望我能继续完善这个小框架，给添加上更多有趣的功能。
 
 首先我们可以看整体功能演示：  
-[一个gif动图，如果不能看，请点击[这里的链接]()]
+[一个gif动图，如果不能看，请点击[这里的链接](https://www.10000h.top/images/data_img/gif1.gif)]
 
 ![](https://www.10000h.top/images/data_img/gif1.gif)
 
